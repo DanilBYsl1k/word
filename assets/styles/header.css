@@ -1,0 +1,28 @@
+.header {
+  color: var(--red);
+  font-weight: 600;
+}
+
+.header__container {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.header__navigation-list {
+  display: flex;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.header__navigation-list li {
+  padding:0 30px;
+  border-right: 1px solid #EBEDA4;
+}
+
+.header__navigation-list li:last-child {
+  padding-right: 0px;
+  border-right: none;
+}
+

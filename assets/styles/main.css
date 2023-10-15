@@ -1,0 +1,186 @@
+.welcome {
+  position: relative;
+  z-index: 2;
+  height: 630px;
+}
+
+.welcome__background-img {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.welcome__container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--white);
+  font-size: 32px;
+}
+
+.discover-tahiti__title {
+  margin-top: 75px;
+}
+
+.discover-tahiti__title .title{
+  color: var(--light-green);
+}
+
+.discover-tahiti__title .title span{
+  font-size: 50px;
+}
+
+.discover-tahiti__cards-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 60px
+}
+
+.card img{
+  height: 168px;
+}
+
+.card-title {
+  color: var(--light-green);
+  font-size: 24px;
+  margin: 0;
+}
+
+.card-body {
+  padding: 10px 10px; 
+}
+
+.card-text {
+  height: 90px;
+  font-size: 14px;
+}
+
+.addition-info-card {
+  background-color: var(--light-green);
+  padding: 20px 20px;
+  color: var(--white);
+  font-family: "Gotham-book";
+  display: flex;
+  justify-content: space-between;
+}
+
+.addition-info-card img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.price {
+  font-family: "Gotham-light";
+}
+
+.discover-search {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+#select {
+  margin-top:20px ;
+  width: 100%;  
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 5px 0px rgba(128, 128, 128, 0.298);
+}
+
+#select select{
+  width: 100%;
+  padding: 20px 40px;
+  border: none;
+  position: relative;
+}
+
+#select select::after {
+  position: absolute;
+  top:0px;
+  right: 0px;
+  content: '';
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+}
+
+#select button{
+    background-color: var(--light-green);
+    color: var(--white);
+}
+
+.experience {
+  position: relative;
+  height: 650px;
+}
+
+.experience__title {
+  color: var(--light-red);
+  font-size: 40px;
+}
+
+.experience__container {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.experience__container button{
+  background-color: var(--light-red);
+  color: var(--white);
+}
+
+.experience__info-text {
+  color: var(--white);
+  font-style: italic;
+  font-size: 20px;
+}
+
+.why-tahiti__title {
+  color: var(--red);
+}
+
+.unique-vacation {
+  position: relative;
+  color: var(--white);
+}
+
+.unique-vacation__container {
+  display: flex;
+  justify-content: center;
+}
+
+.unique-vacation__info-box {
+  display: flex;
+  flex-direction: column;
+  margin: 140px 20px;
+  padding: 100px 70px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.234);
+}
+
+.unique-vacation__info-box button {
+  border: none;
+  box-shadow: (0px 4px 5px rgba(0,0,0,0.1));
+  background-color: #21b6c7;
+  color: var(--white);
+  width: 285px;
+  height: 60px;
+  margin-top: 40px;
+}
+
+.unique-vacation__info-box h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
